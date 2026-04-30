@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+Get started
+1. Prerequisites
+Before you begin, make sure you have the following installed:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Node.js 
 
-## Get started
+npm or yarn
 
-1. Install dependencies
+Git installed and configured on your machine
 
-   ```bash
-   npm install
-   ```
+2. Installation & Setup
+To get a local copy of the project up and running, follow these steps:
 
-2. Start the app
+Clone the repository:
 
-   ```bash
-   npx expo start
-   ```
+Bash
+git clone https://github.com/nias-antics/DigitalWardobe.git
+cd DigitalWardobe
+Install dependencies:
 
-In the output, you'll find options to open the app in a
+Bash
+npm install
+3. Running the App
+Run the following command to start the Metro bundler:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Bash
+npx expo start
+In the output, you'll find options to open the app in a:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Development build
 
-## Get a fresh project
+Android emulator
 
-When you're ready, run:
+iOS simulator
 
-```bash
+Expo Go, a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the app directory. This project uses file-based routing.
+
+🛠 GitHub Workflow & Development
+Branching
+Always ensure you are working on the correct feature branch. To switch to the latest development branch:
+
+Bash
+git fetch origin
+git checkout purchase-final-v2
+Pushing Changes
+When you have finished your updates, follow the standard Git cycle to push them to GitHub:
+
+Stage your changes:
+
+Bash
+git add .
+Commit your work:
+
+Bash
+git commit -m "Brief description of your changes"
+Push to the branch:
+
+Bash
+git push origin purchase-final-v2
+🔄 Get a fresh project
+When you're ready to start from scratch, run:
+
+Bash
 npm run reset-project
-```
+This command will move the starter code to the app-example directory and create a blank app directory where you can start developing.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
+📚 Learn more
 To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Expo documentation: Learn fundamentals, or go into advanced topics with our guides.
 
-## Join the community
+Learn Expo tutorial: Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-Join our community of developers creating universal apps.
+👥 Join the community
+Join our community of developers creating universal apps:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo on GitHub: View our open source platform and contribute.
+
+Discord community: Chat with Expo users and ask questions.
