@@ -17,7 +17,7 @@ To get a local copy of the project up and running, follow these steps:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/ldsj-05/DigitalWardobe.git
+    git clone -b purchase-final-v2 --single-branch https://github.com/ldsj-05/DigitalWardobe.git
     cd DigitalWardobe
     ```
 2.  **Install dependencies**:
