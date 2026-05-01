@@ -31,7 +31,7 @@ Once the server is running, scan the provided QR code using the Expo Go app to l
 
 ## Development and Collaboration
 
-* Git and GitHub served as the primary repository for source code, but we ran into issues and had to use google drive and email to send files over. This is shown in the file (Files sent back and forth.pdf) 
+* Git and GitHub served as the primary repository for source code, but we ran into issues and had to use google drive and email to send files over. These issues also spanned across multiple repos, but contributions are shown in the "contribution.pdf" file. In addition, the communication of files is shown in the "Files sent back and forth.pdf".
 
 ---
 
