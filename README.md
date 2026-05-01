@@ -1,31 +1,42 @@
-## Digital Wardrobe
+# EcoCloset (Digital Wardrobe)
 
-Welcome to your Expo app. This is an **Expo** project created with `create-expo-app`. This application (**EcoCloset**) is designed for digital wardrobe management and outfit building.
-
----
+EcoCloset is a mobile application developed for digital wardrobe management and outfit building. This project was built using the Expo framework and migrated to this repository to maintain a clean production version of the application.
 
 ## Getting Started
 
-### 1. Prerequisites
-Before you begin, ensure you have the following installed:
-* **Node.js** (LTS version recommended).
-* **npm** or **yarn**.
-* **Git** installed and configured on your machine.
+### Prerequisites
+* Node.js
+* npm or yarn
+* Expo Go app installed on a mobile device (if would like to use mobile) 
 
-### 2. Installation and Setup
-To get a local copy of the project up and running, follow these steps:
+### Installation and Setup
+To set up a local copy of the project, execute the following commands:
 
-1.  **Clone the repository**:
-    ```bash
-    git clone -b purchase-final-v2 --single-branch https://github.com/ldsj-05/DigitalWardobe.git
-    cd DigitalWardobe
-    ```
-2.  **Install dependencies**:
-    ```bash
-    npm install
-    ```
+1. Clone the repository:
+   git clone https://github.com/ldsj-05/EcoCloset_
 
-### 3. Running the App
-Run the following command to start the Metro bundler:
-```bash
+2. Navigate to the project directory:
+   cd EcoCloset_
+
+3. Install the required dependencies:
+   npm install
+
+### Running the Application
+To start the Metro bundler and view the application:
 npx expo start
+
+Once the server is running, scan the provided QR code using the Expo Go app to launch the project on your device or press w to go to the web. 
+
+---
+
+## Development and Collaboration
+
+* Git and GitHub served as the primary repository for source code, but we ran into issues and had to use google drive and email. This is shown in the file (Files sent back and forth.pdf) 
+
+---
+
+## Technical Specifications
+* Framework: React Native (Expo)
+* Primary Language: TypeScript
+* Additional Languages: JavaScript, HTML, CSS
+* Environment: Node.js
